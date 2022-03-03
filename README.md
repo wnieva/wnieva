@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @wnieva
 - 👀 I’m interested in ReactJS and NodeJS 
 - 🌱 I’m currently learning ReactJs and NodeJS (I'm very happy !!!)
-- 📫 You can write me to my email william.nieva@versionuno.cl or call me by WhatsApp +56 9 6486 08 03
+- 📫 You can write me to my email william.nieva@versionuno.cl

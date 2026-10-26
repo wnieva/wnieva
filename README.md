@@ -1,118 +1,112 @@
-public class WNieva {
+<div align="center">
 
-    // ----------------------------------------------------------
-    // 👋 About me
-    // ----------------------------------------------------------
+# 👋 Hi, I'm William Nieva — @wnieva
+
+### System Engineer · Full-Stack Developer · CISO · Founder of **Version Uno SpA**
+
+[![Website](https://img.shields.io/badge/Web-versionuno.cl-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://versionuno.cl)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:william.nieva@versionuno.cl)
+[![Instagram](https://img.shields.io/badge/Instagram-@version.uno.chile-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/version.uno.chile)
+
+</div>
+
+---
+
+## 💻 Presentation
+
+```java
+public class WilliamNieva {
+
+    private final String role      = "System Engineer & CISO";
+    private final String company   = "Version Uno SpA (Chile)";
+    private final String mission   = "Turn complex systems into scalable, secure, revenue-ready products";
+    private final boolean openToProjects = true;
+
     public void presentation() {
-        System.out.println("👋 Hi, I'm @wnieva");
-        System.out.println("👀 System Engineer | Developer | CISO | Founder of Version Uno SpA (Chile)");
-        System.out.println("🌱 Currently learning Cybersecurity (Kali Linux, pentesting & privacy)");
-        System.out.println("🔭 Building commercial solutions focused on automation and data analysis");
-        System.out.println("📫 william.nieva@versionuno.cl");
-        System.out.println("🌐 wnieva.versionuno.cl");
+        System.out.println("🚀 Building software that solves business problems, not just code");
+        System.out.println("🛡️  Security by design: a CISO's mindset applied to every build");
+        System.out.println("⚡ Efficient, scalable and low-cost architectures from day one");
+        System.out.println("📈 Focus: automation, data analysis, and AI-assisted products");
     }
 
-    // ----------------------------------------------------------
-    // 🧠 Core stack
-    // ----------------------------------------------------------
-    public List<String> stack() {
-        return List.of(
-            // Mobile & Web
-            "Flutter",
-            "Angular (LTS)",
-            "React",
-            // Backend & Microservices
-            "NestJS",
-            "NodeJS",
-            "Java",
-            "Python",
-            "REST APIs",
-            // Data
-            "PostgreSQL",
-            "MariaDB",
-            // Infra
-            "Linux (VPS deployment & administration)",
-            "Git (branching strategies, hooks & security guards)"
-        );
-    }
-
-    // ----------------------------------------------------------
-    // 🚀 Projects & ventures
-    // ----------------------------------------------------------
-    public Map<String, String> projects() {
-        return Map.of(
-            "Version Uno SpA",
-            "Software studio: technical & commercial proposals, development and digital products",
-            "Consulta Protegida",
-            "Digital product: Ley 21.719 compliance kit for psychologists (Chile)",
-            "Refactoriza",
-            "Refactoring & technical debt service: legacy code modernization for SMEs",
-            "Computer Vision for Agroindustry",
-            "Automated bin-counting and consumption reconciliation systems for fruit packing",
-            "Job-search automation",
-            "PegaFlow: automated job-search platform for Chile/LATAM",
-            "Documentation automation",
-            "Claude-powered skill that generates user manuals and technical docs"
-        );
-    }
-
-    // ----------------------------------------------------------
-    // 🛡️ Security mindset
-    // ----------------------------------------------------------
-    public void security() {
-        System.out.println("🔐 CISO perspective: security by design, not as an afterthought");
-        System.out.println("🧪 Home lab: Kali Linux for pentesting and anonymity research");
-        System.out.println("🪝 Personal 3-layer security system across all repos:");
-        System.out.println("   → global git hook, Claude Code hook, deployment guard agent");
-    }
-
-    // ----------------------------------------------------------
-    // 🏗️ Infrastructure
-    // ----------------------------------------------------------
-    public void infrastructure() {
-        System.out.println("🖥️  2 VPS: one for databases, one for deploying microservices");
-        System.out.println("📦 Microservices architecture with NestJS, Spring Boot and REST APIs");
-        System.out.println("🗄️  PostgreSQL & MariaDB as primary data stores");
-    }
-
-    // ----------------------------------------------------------
-    // 🎯 Current focus & goals
-    // ----------------------------------------------------------
-    public void currentFocus() {
-        System.out.println("📱 Building a React mobile web app for a school (parents, students, teachers)");
-        System.out.println("💼 Open to remote/hybrid opportunities in Chile, LATAM & international");
-        System.out.println("🤝 Interested in: automation, data analysis, cybersecurity, AI-assisted dev");
-    }
-
-    // ----------------------------------------------------------
-    // 💡 Philosophy
-    // ----------------------------------------------------------
-    public void philosophy() {
-        System.out.println("⚡ Efficient, scalable and low-cost solutions first");
-        System.out.println("📈 Business value from day one: every feature should earn its keep");
-        System.out.println("🧹 Clean code, clear architecture, and technical debt paid down early");
-    }
-
-    // ----------------------------------------------------------
-    // 🤝 Let's connect
-    // ----------------------------------------------------------
-    public void contact() {
-        System.out.println("💬 Got a project, a legacy system to refactor, or an idea to automate?");
-        System.out.println("📩 Write me: william.nieva@versionuno.cl");
-    }
-
-    // ----------------------------------------------------------
-    // ▶️ Entry point
-    // ----------------------------------------------------------
-    public static void main(String[] args) {
-        WNieva william = new WNieva();
-        william.presentation();
-        william.stack();
-        william.projects();
-        william.security();
-        william.infrastructure();
-        william.currentFocus();
-        william.philosophy();
-        william.contact();
+    public void collaborate() {
+        if (openToProjects) {
+            System.out.println("🤝 Available for freelance, consulting & product partnerships");
+        }
     }
 }
+```
+
+---
+
+## 🛠️ Services
+
+| Service | What I deliver |
+|---|---|
+| 🧩 **Microservices & REST APIs** | Scalable backends with NestJS, Spring Boot, Python and Node.js |
+| 📱 **Mobile & Web Apps** | Cross-platform apps with Flutter and modern SPAs with Angular (LTS) and React |
+| 🔧 **Refactoring & Technical Debt** | Legacy modernization, code audits and architecture reviews ([refactoriza.cl](https://refactoriza.cl)) |
+| 🤖 **Automation & Data Analysis** | Workflow automation, data pipelines and computer-vision solutions |
+| 🔐 **Cybersecurity & Compliance** | Security reviews, hardening, and Ley 21.719 (Chile data protection) readiness |
+| ☁️ **DevOps & Deployment** | VPS deployment, database administration, CI/CD and secure release pipelines |
+
+---
+
+## 🧰 Tech Stack
+
+**Languages & Frameworks**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Data & Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+
+---
+
+## 🚀 Featured Products & Projects
+
+| Project | Description |
+|---|---|
+| **[Consulta Protegida](https://versionuno.cl)** | Digital compliance kit for psychologists under Chile's Ley 21.719 |
+| **[PegaFlow](#)** | Automated job-search platform for Chile and LATAM |
+| **Computer Vision for Agroindustry** | Automated bin-counting and consumption reconciliation for fruit packing plants |
+| **Documentation Automation** | Claude-powered skill that generates user manuals and technical docs from projects |
+
+---
+
+## 🔐 Security Mindset
+
+- 🛡️ CISO background: threat modeling and secure design in every project
+- 🧪 Home lab on Kali Linux for pentesting and privacy research
+- 🪝 Multi-layer security across repos: global Git hooks, AI-agent hooks and deployment guards
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=wnieva&show_icons=true&theme=tokyonight&hide_border=true)
+
+---
+
+## 📫 Let's Work Together
+
+Need a **modern product built fast**, a **legacy system modernized**, or a **process automated**?
+
+[![Email](https://img.shields.io/badge/Start_a_project-william.nieva@versionuno.cl-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](mailto:william.nieva@versionuno.cl)
+
+<div align="center">
+
+⭐ *Thanks for visiting. Let's build something valuable.* ⭐
+
+</div>
